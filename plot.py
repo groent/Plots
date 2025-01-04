@@ -8,7 +8,7 @@ y_err = [0.9, 1.2, 0.5, 0.3]
 ax.plot(x, y, color="blue")
 ax.errorbar(x, y, y_err, fmt="o", linewidth=2, capsize=6, color="blue")
 
-ax.set_title("Displacement Time Graph")
+ax.set_title("Huevos")
 ax.set_xlabel("Time(s)")
 ax.set_ylabel("Velocity(m/s)")
 
